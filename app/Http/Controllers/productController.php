@@ -4,15 +4,20 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class ProductController extends Controller
+class productController extends Controller
 {
-    public function index(){
-        return "Show products";
+    public function index() // Listado de productos
+    {
+        return view('product.index');
     }
-    public function create(){
-        return "For to create a product";
+
+    public function create() // Formulario de producto
+    {
+        return view('product.create');
     }
-    public function show($idProduct){
-        return "detail of a product: $idProduct";
+
+    public function show($idproduct) // Mostrar producto vista estática
+    {
+        return view('product.show', compact('idproduct'));
     }
 }

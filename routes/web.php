@@ -7,10 +7,8 @@ use App\Http\Controllers\productController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/Home', HomeController::class);
-
-Route::prefix('/product')->controller(productController::class)->group(function(){
-    Route::get('/', 'index');
-    Route::get('/create',  'create'); 
-    Route::get('/{idproduct}','show');
-     });
-
+Route::prefix('/product')->controller(ProductController::class)->group(function() {
+    Route::get('/', 'index'); // <-- Aquí cambiamos '/lista' por '/'
+    Route::get('/create', 'create');
+    Route::get('/{idproduct}', 'show');
+});
