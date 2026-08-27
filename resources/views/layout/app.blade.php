@@ -7,17 +7,11 @@
     <link rel="stylesheet" href="{{ asset('style.css') }}">
 </head>
 <body>
-    <nav class="navbar">
-        <div class="container">
-            <a href="/Home" class="logo">📱 CelularShop</a>
-            <div class="nav-links">
-                <a href="/product">Catálogo</a>
-                <a href="/product/create">Publicar Equipo</a>
-            </div>
-        </div>
-    </nav>
+    @include('layout.header')
+
     <div class="container">
         @yield('content')
     </div>
+    //Mi pagina no tiene footer, pero si lo tuviera, lo pondria aqui
 </body>
 </html>
