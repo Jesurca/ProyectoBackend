@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -17,6 +18,12 @@
         </div>
     </nav>
 
+=======
+@extends('layout.app')
+
+
+@section('content')
+>>>>>>> main
     <main class="container">
         <div class="product-show">
             <div class="product-gallery">
@@ -46,6 +53,10 @@
                 <button class="btn" style="width: 100%; font-size: 1.1rem; padding: 1rem;">Añadir al Carrito</button>
             </div>
         </div>
+<<<<<<< HEAD
     </main>
 </body>
 </html>
+=======
+    @endsection
+>>>>>>> main

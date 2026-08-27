@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -20,6 +21,13 @@
     <main class="container">
         <h2 style="margin-bottom: 2rem;">Nuestros Celulares</h2>
         
+=======
+@extends('layout.app')
+
+
+@section('content')
+
+>>>>>>> main
         <div class="product-grid">
             <!-- Producto 1 -->
             <div class="product-card">
@@ -51,6 +59,11 @@
                 </div>
             </div>
         </div>
+<<<<<<< HEAD
     </main>
 </body>
 </html>
+=======
+    
+@endsection
+>>>>>>> main

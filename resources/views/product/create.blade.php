@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -16,6 +17,12 @@
             </div>
         </div>
     </nav>
+=======
+@extends('layout.app')
+
+
+@section('content')
+>>>>>>> main
 
     <main class="container">
         <div class="form-container">
@@ -61,6 +68,10 @@
                 <button type="submit" class="btn" style="width: 100%;">Guardar Producto</button>
             </form>
         </div>
+<<<<<<< HEAD
     </main>
 </body>
 </html>
+=======
+@endsection
+>>>>>>> main
